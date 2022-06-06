@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.sky {
+  width: 100vw;
+  height: 45vh;
+  background-color: rgb(129, 199, 249);
+}
+
+.grenery {
+    width: 100vw;
+    height: 55vh;
+    background-color: rgb(98, 218, 59);
+}
+
+.sun {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    border-radius: 50%;
+    background: radial-gradient( #ffcc00,  #ffe174);
+    box-shadow: 0 0 100px  #ffa600 ;
+}

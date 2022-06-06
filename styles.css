@@ -2,10 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid black;
 }
 
+:root  {
+    --backgroundwall-image: url("images/the-wall-of-the-house.png"); 
+        
+}
 
-
+.livestock-pack {
+    position: relative;
+}
 
 .sky {
   width: 100vw;
@@ -28,4 +35,121 @@
     border-radius: 50%;
     background: radial-gradient( #ffcc00,  #ffe174);
     box-shadow: 0 0 100px  #ffa600 ;
+}
+
+
+.home-pack {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 0;
+}
+
+/* FIRST HOUSE PAGE */
+.home-1 {
+    width: 500px;
+    height: 500px;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+.garage1 {
+    width: 150px;
+    height: 100px;
+    display: inherit;
+    align-items: flex-end;
+    justify-content: inherit;
+    background-image: url("images/white-brick-wall.png");
+    background-size: contain;
+}
+
+.gates1 {
+    width: 125px;
+    height: 85px;
+    background-image: url("images/garage-door1.png");
+    background-size: contain;
+}
+
+.h1a {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.first-floor1 {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    background-image: var(--backgroundwall-image);
+    background-size: 125%;
+}
+
+.door1 {
+    width: 35px;
+    height: 70px;
+    position: absolute;
+    top: 28px;
+    left: 30px;
+}
+
+.window1 {
+    width: 76px;
+    height: 35px;
+    position: absolute;
+    top: 28px;
+    left: 90px;
+}
+
+.second-floor1 {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    background-image: var(--backgroundwall-image);
+    background-size:125%;
+
+}
+
+.window2 {
+    width: 50px;
+    height: 50px;
+}
+
+.roof1 {
+    border-bottom: 100px solid #6e460e;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+    position: relative;
+}
+
+.window3 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 40px;
+    left: -20px;
+    background-color: antiquewhite;
+}
+/* SECOND HOUSE PAGE */
+
+.home-2 {
+    width: 500px;
+    height: 500px;
+    
+}
+
+/* THIRD HOUSE PAGE */
+
+.home-3 {
+    width: 500px;
+    height: 500px;
+    
 }
